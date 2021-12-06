@@ -1,0 +1,175 @@
+
+ body {
+      position: relative; 
+	  background-color: white;
+  }
+
+.i1
+{
+  background-image: url('i1.jpg');
+  background-repeat: no-repeat;
+  background-position:center;
+  height:800px;
+  background-size:cover;
+}
+a{
+		color:black;
+	
+}
+.i4
+{
+  background-image: url('black1.jpg');
+  background-repeat: no-repeat;
+  height:100px;
+  background-size:cover;
+}
+.i3
+{
+  background-image: url('i3.jpg');
+  background-repeat: no-repeat;
+  background-position:center;
+  height:800px;
+  background-size:cover;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto%;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 6px 6px;
+  float: left;
+  width: 24.99999%;
+}
+.abs{
+
+   position:absolute;
+   right:280px;
+   top:1400px;
+
+
+
+}
+.topnav-right {
+  float: right;
+}
+
+
+h1
+{
+	position:absolute;
+	color:white;
+}
+
+
+h2
+{
+	font-size:60px;
+	color:black;
+
+}
+h3
+{
+	font-size:40px;
+	color:white;
+	text-align:center;
+}
+h5
+{
+		color:white;
+	text-align:left;
+	margin-left:100px;
+	
+	
+	
+	
+}
+p1
+{
+	font-size:40px;
+	color:white;
+	text-align:center;
+}
+
+h6{
+	
+	
+		color:white;
+	text-align:left;
+	margin-left:100px;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color:white;
+}
+.centered {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bs-example{
+        margin: 20px;        
+    }
+
+
+.footer {
+   padding:80px;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: white;
+   
+  
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+
+  color: black;
+}
+
+.fa-twitter {
+
+  color: black;
+}
+.fa-instagram {
+  color: black;
+}
+.fa-linkedin{
+	color:black;
+}
+.card-img-top {
+    width: 20%;
+    height: 5vw;
+    
+}
